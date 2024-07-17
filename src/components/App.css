@@ -1,0 +1,56 @@
+/* src/components/App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.heroes-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.heroes-menu a {
+  flex: 1 0 21%;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+}
+
+.heroes-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+input {
+  margin-top: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
